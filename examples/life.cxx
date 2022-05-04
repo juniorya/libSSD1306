@@ -220,7 +220,7 @@ main()
             }
         }
 
-       SSD1306::OledI2C oled{"/dev/i2c-1", 0x3C};
+       SSD1306::OledI2C oled{"/dev/i2c-0", 0x3C};
 
         Bitmap pixels;
 
